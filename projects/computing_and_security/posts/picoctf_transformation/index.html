@@ -28,7 +28,7 @@ _______ _     _ _____ ______  _______  ______ _______
 |______ |_____|   |   |     \ |_____| |_____/ |______
 ______| |     | __|__ |_____/ |     | |    \_ |______
 -->
-<a href="http://www.shidare.com"><img src="../../images/shidare_dot_com.png" alt="shidare.com" border="0" /></a>
+<a href="http://www.shidare.com"><img src="../../../../images/shidare_dot_com.png" alt="shidare.com" border="0" /></a>
 </pre>
 <!-- End header -->
 <pre>;-- dreams of unicorns:</pre>
@@ -43,20 +43,39 @@ ______| |     | __|__ |_____/ |     | |    \_ |______
 <!-- End menu -->
 <pre>;-- section.1.__TEXT.__projects:</pre>
 <!-- Begin content -->
-<samp><big><big><big><b>0x02; projects</b></big></big></big></samp>
+<pre><b>0x02; projects</b></pre>
+
 <pre>
 ;-- section.2.__TEXT._computing_and_security:
 
-      * 2023/07/17; <a href="posts/picoctf_transformation">PicoCTF: Transformation</a>
-      * 2023/07/15; <a href="posts/hello_world">Hello world</a>
+<samp><big><big><big><b>2023/07/17; PicoCTF: Transformation</b></big></big></big></samp>
 
-<a href="#"><img src="https://pub-610e3ea9030849ecaf6000c24d2e66b5.r2.dev/tor_relay_35574580_2162618140692117_6562395503537946624_n.jpg" width="585" alt="Photo: Tor Relay, Murcia, 2017." border="0" /></a>
+--spanish---
+Nos dan un fichero de texto llamado "enc", el cual cuando lo lees parece 
+poner un texto en chino tradicional, al menos los decodificadores online 
+es lo que detectan.
+
+Si bajo sistemas *nix usamos el comando "file", observamos que tenemos
+la siguiente nueva información del propio fichero:
+
+"enc: Unicode text, UTF-8 text, with no line terminators"
+
+Si jugamos con el tipo de codificación y pasamos de UTF-8 a UTF-16 y 
+quitamos los espacios y le decemos que queremos el UTF-16 en formato 
+BIG ENDIAN obtendremos el siguiente texto:
+
+---BEGIN---
+$ cat enc | iconv -f utf-8 -t utf-16be
+
+picoCTF{16_bits_inst34d_of_8_75d4898b}
+---END--
+
+He aquí la solución.
 
 </pre>
-<!-- End content -->
 <pre>;-- section.3.__TEXT.__footer:</pre>
 <!-- Begin footer -->
-<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank"><img src="../../images/powered/by.png" alt="Creative Commons BY 3.0" height="15" width="80" border="0"/></a> <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="../../images/powered/valid_xhtml10.png" alt="Valid XHTML 1.0 Transitional" height="15" width="80" border="0"/></a> <a href="http://www.anybrowser.org/campaign/" target="_blank"><img src="../../images/powered/viewable_with_any_browser.png" width="graphic-width-in-pixels" height="graphic-height-in-pixels" alt="B.Y.O.B." border="0"/></a>
+<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank"><img src="../../../../images/powered/by.png" alt="Creative Commons BY 3.0" height="15" width="80" border="0"/></a> <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="../../../../images/powered/valid_xhtml10.png" alt="Valid XHTML 1.0 Transitional" height="15" width="80" border="0"/></a> <a href="http://www.anybrowser.org/campaign/" target="_blank"><img src="../../../../images/powered/viewable_with_any_browser.png" width="graphic-width-in-pixels" height="graphic-height-in-pixels" alt="B.Y.O.B." border="0"/></a>
 <pre>
 Copyright (c) 2004-2023 JS 
 http://www.shidare.com created by JS a.k.a. "edwsec"
