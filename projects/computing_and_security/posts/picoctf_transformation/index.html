@@ -50,7 +50,7 @@ ______| |     | __|__ |_____/ |     | |    \_ |______
 
 <samp><big><big><big><b>2023/07/17; PicoCTF: Transformation</b></big></big></big></samp>
 
---spanish---
+---BEGIN_NATIVE---
 Nos dan un fichero de texto llamado "enc", el cual cuando lo lees parece 
 poner un texto en chino tradicional, al menos los decodificadores online 
 es lo que detectan.
@@ -58,22 +58,22 @@ es lo que detectan.
 Si bajo sistemas *nix usamos el comando "file", observamos que tenemos
 la siguiente nueva información del propio fichero:
 
----BEGIN---
+---BEGIN_CODE---
 "enc: Unicode text, UTF-8 text, with no line terminators"
----END---
+---END_CODE---
 
 Si jugamos con el tipo de codificación y pasamos de UTF-8 a UTF-16 y 
 quitamos los espacios y le decemos que queremos el UTF-16 en formato 
 BIG ENDIAN obtendremos el siguiente texto:
 
----BEGIN---
+---BEGIN_CODE---
 $ cat enc | iconv -f utf-8 -t utf-16be
 
 picoCTF{16_bits_inst34d_of_8_75d4898b}
----END--
+---END_CODE--
 
 He aquí la solución.
-
+---END_NATIVE---
 </pre>
 <pre>;-- section.3.__TEXT.__footer:</pre>
 <!-- Begin footer -->
