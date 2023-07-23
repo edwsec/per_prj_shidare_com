@@ -51,35 +51,45 @@ ______| |     | __|__ |_____/ |     | |    \_ |______
 <samp><big><big><big><b>2023/07/17; PicoCTF: Keygenme</b></big></big></big></samp>
 
 ---BEGIN_NATIVE---
-Tenemos una aplicación keygenme-trial.py. La misma incorpora en su propio código la versión completa y que buscar
-la forma de descifrar la clave de licencia para desbloquear la aplicación.
+Tenemos una aplicación keygenme-trial.py. La misma incorpora en su propio 
+código la versión completa y que buscar la forma de descifrar la clave de 
+licencia para desbloquear la aplicación.
 
-Dado que tenemos el código fuente el reversing a utilizar aquí no viene de un desensamblado, la dificultad es baja.
+Dado que tenemos el código fuente el reversing a utilizar aquí no viene de 
+un desensamblado, la dificultad es baja.
 
-Para ello comenzamos revisando la parte del código identificando una variable esencial para poder generar el código
-completo de la aplicación, esta variable sería la variable dinámica, concretamente key_part_dinamic1_trial.
+Para ello comenzamos revisando la parte del código identificando una variable 
+esencial para poder generar el código completo de la aplicación, esta variable 
+sería la variable dinámica, concretamente key_part_dinamic1_trial.
 
-La clave usada como tal para poder generar el código completo de la aplicación es "key_full_template_trial", pero la
-misma clave es una clave compuesta, donde la parte dinámica es en la que tenemos que centrarnos "key_part_dinamic1_trial",
-siendo entonces la clave necesaria la siguiente composición:
+La clave usada como tal para poder generar el código completo de la aplicación 
+es "key_full_template_trial", pero la misma clave es una clave compuesta, 
+donde la parte dinámica es en la que tenemos que centrarnos 
+"key_part_dinamic1_trial",siendo entonces la clave necesaria la siguiente 
+composición:
 
 ---BEGIN_CODE---
-key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial + key_part_static2_trial
+key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial \ 
+													+ key_part_static2_trial
 ---END_CODE---
 
-También observamos declaraciones de variables de tipo string con el prefijo "b", esto significar a "bytes string literal",
-esta declaración hace que creemos un objeto de bytes, no un objeto string unicode regular, lo que tendremos que tener en cuenta
-de cara a convertir o extraer datos.
+También observamos declaraciones de variables de tipo string con el prefijo "b", 
+esto significar a "bytes string literal",esta declaración hace que creemos un 
+objeto de bytes, no un objeto string unicode regular, lo que tendremos que tener 
+en cuenta de cara a convertir o extraer datos.
 
-Luego observamos un conjunto de condicionales "if" donde hacen uso de la librería hashlib para hacer un hashing sha256 sobre la 
-variable "username_trial" y usando una posición del resultado.
+Luego observamos un conjunto de condicionales "if" donde hacen uso de la librería 
+hashlib para hacer un hashing sha256 sobre la variable "username_trial" y usando 
+una posición del resultado.
 
-Estos condicionales lo que hacen es recorrer la clave que nosotros introducimos por teclado, concretamente la parte dinámica
-de la clave "key_part_dinmac1_trial" y va recorriendo caracter a caracter para compararla en cada iteración con una posición
-concreta del hashing hacia "username_trial".
+Estos condicionales lo que hacen es recorrer la clave que nosotros introducimos 
+por teclado, concretamente la parte dinámica de la clave "key_part_dinmac1_trial" 
+y va recorriendo caracter a caracter para compararla en cada iteración con una 
+posición concreta del hashing hacia "username_trial".
 
-Con esto ya sabemos que solamente tendremos que abrir una consola en python, pasar "bUsername_trial" como variable "username_trial",
-y ejecutar el hash para averiguar que valor tiene.
+Con esto ya sabemos que solamente tendremos que abrir una consola en python, 
+pasar "bUsername_trial" como variable "username_trial", y ejecutar el hash para 
+averiguar que valor tiene.
 
 ---BEGIN_CODE---
 >>> hashlib.sha256(bUsername_trial).hexdigest()[4]
@@ -100,7 +110,8 @@ y ejecutar el hash para averiguar que valor tiene.
 '3'
 ---END_CODE---
 
-Por lo tanto al ejecutar la aplicación ya tendríamos la parte dinámica de la clave resuelta
+Por lo tanto al ejecutar la aplicación ya tendríamos la parte dinámica de la clave 
+resuelta.
 
 ---BEGIN_CODE---
 
