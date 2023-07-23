@@ -75,9 +75,9 @@ key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial \
 ---END_CODE---
 
 También observamos declaraciones de variables de tipo string con el prefijo "b", 
-esto significar a "bytes string literal",esta declaración hace que creemos un 
-objeto de bytes, no un objeto string unicode regular, lo que tendremos que tener 
-en cuenta de cara a convertir o extraer datos.
+esto significa conversión a "bytes string literal", esta declaración hace que 
+creemos un objeto de bytes, no un objeto string unicode regular, lo que 
+tendremos que tener en cuenta de cara a convertir o extraer datos.
 
 Luego observamos un conjunto de condicionales "if" donde hacen uso de la librería 
 hashlib para hacer un hashing sha256 sobre la variable "username_trial" y usando 
