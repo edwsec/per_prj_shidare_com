@@ -1,0 +1,228 @@
+1:"$Sreact.fragment"
+2:I[5060,["874","static/chunks/874-8826d48c805a2f7c.js","76","static/chunks/76-9d6b322a1f8e5074.js","177","static/chunks/app/layout-747cc1916f7c30c3.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"OutletBoundary"]
+9:I[4911,[],"AsyncMetadataOutlet"]
+b:I[9665,[],"ViewportBoundary"]
+d:I[9665,[],"MetadataBoundary"]
+f:I[6614,[],""]
+:HL["/_next/static/media/111c93f1bc244164-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/828e2958d60bafae-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/9090a9de054f3c46.css","style"]
+0:{"P":null,"b":"kd3oUuVaxdE6Qv4t_vY0p","p":"","c":["","projects","street-photography-spain",""],"i":false,"f":[[["",{"children":["projects",{"children":[["slug","street-photography-spain","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9090a9de054f3c46.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}]]}],["$","body",null,{"className":"__variable_87c02c antialiased","children":["$","div",null,{"className":"flex","children":[["$","$L2",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["projects",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","street-photography-spain","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$L7","$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","7Hgoiw9hs6wEy4_k20PwBv",{"children":[["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$Ld",null,{"children":"$Le"}]]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+13:I[6874,["874","static/chunks/874-8826d48c805a2f7c.js","419","static/chunks/app/projects/%5Bslug%5D/page-73bfcde563179dc1.js"],""]
+e:["$","div",null,{"hidden":true,"children":["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]}]
+14:T26eb,<h1>Street Photography Around Spain</h1>
+<h2>The Art of Observation</h2>
+<p>Street photography in Spain is a journey into the heart of daily life, where every corner tells a story and every moment captures the essence of Spanish culture.</p>
+<h2>Photographic Approach</h2>
+<h3>Technical Philosophy</h3>
+<p>The goal was to blend documentary realism with artistic surrealism, capturing authentic moments while maintaining visual appeal.</p>
+<h2>Concepts Explored</h2>
+<h3>Hello world</h3>
+<p><img src="https://pub-a9df1f2483f2449facb6aa72391b0bca.r2.dev/hello_world_kldhf9889237_d9283457uygkiedh_398jsd8_1.jpg" alt="hello_world"></p>
+<pre><code>🇪🇸 ¡Hola mundo!
+
+--
+
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 Hello world!
+</code></pre>
+<h3>Possesions</h3>
+<p><img src="https://pub-a9df1f2483f2449facb6aa72391b0bca.r2.dev/puig_campana_272832549_2794681440677638_6787482612526663094_n.jpg" alt="Possesions"></p>
+<pre><code>🇪🇸 Mejórate a ti mismo, no tus posesiones
+
+--
+
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 Improve yourself, not your possessions
+</code></pre>
+<h3>Inactivity</h3>
+<p><img src="https://pub-13a21775be7d46c3929a88b7921b1643.r2.dev/riano_leon_353647266_781236300377425_674333323718359956_n.jpg" alt="Inactivity"></p>
+<pre><code>🇪🇸 "Solo en la inactividad nos percatamos del suelo sobre el que pisamos y 
+del espacio en la que nos hallamos. Solo la inactividad nos inicia en el misterio 
+de la vida." -Byung-Chul Han, (2023). Vida contemplativa. Taurus.
+
+--
+
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 Only in inactivity do we become aware of the ground beneath our feet and 
+the space in which we find ourselves. Only inactivity initiates us into the mystery 
+of life." -Byung-Chul Han, (2023). Contemplative Life. Taurus
+</code></pre>
+<h3>Desire</h3>
+<p><img src="https://pub-a9df1f2483f2449facb6aa72391b0bca.r2.dev/johnny_walker_60133794_331520284207597_2383152250053492160_n.jpg" alt="Desire"></p>
+<pre><code>🇪🇸 Hoy en día ya no se domina con fuerza, se manipula con el placer y el deseo
+
+--
+
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 Today it is no longer dominated with force, it is manipulated with pleasure 
+and desire
+</code></pre>
+<h3>Heart</h3>
+<p><img src="https://pub-a9df1f2483f2449facb6aa72391b0bca.r2.dev/big_bang_klsd781289h87e761t2gyf2w_osd89298234.jpg" alt="Heart"></p>
+<pre><code>🇪🇸 "Si el corazón es el órgano del recuerdo y la memoria, en la era digital 
+estamos absolutamente desprovistos de corazón.
+
+Almacenamos cantidades impresionates de datos e informaciones, pero sin 
+recordar. Nos apartamos de cualquier forma de "para siempre". Abjuramos 
+de las prácticas que toman mucho tiempo, como la fidelidad, la 
+responsabilidad, la promesa, la confianza y el compromiso.
+
+La vida es gobernada por lo provisional, por lo a corto plazo y por lo 
+inconstante."
+
+-Byung Chul Han, (2023). Contemplative life. Taurus.
+
+--
+
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 "If the heart is the organ of remembrance and memory, then in the digital 
+age, we are utterly heartless.
+
+We store impressive amounts of data and information, but without remembering. 
+We turn away from any form of 'forever.' We renounce practices that take a 
+long time, like fidelity, responsibility, promises, trust, and commitment.
+
+Life is governed by the provisional, by the short-term, and by the inconstant."
+
+—Byung-Chul Han, (2023). Contemplative Life. Taurus.
+</code></pre>
+<h3>Survival</h3>
+<p><img src="https://pub-a9df1f2483f2449facb6aa72391b0bca.r2.dev/boxing_toys_92ehfj92eyfy98d7827834y2gk_9d8f792_293846782.jpg" alt="Survival"></p>
+<pre><code>🇪🇸 "Hoy invertimos lo mejor de nuestro empeño en alargar la vida. 
+En realidad, la vida se está reduciendo a superviviencia.
+
+La histeria de la salud y la manía de la optimización son reflejos 
+ante la falta de ser reinante. Procuramos compensar el déficit 
+de ser por medio de la prolongación de la vida desnuda. Entretanto, 
+perdemos todo sentido de la vida intensa. La confundimos con más 
+producción, más rendimiento y consumo, los cuales, sin embargo, 
+no constituyen más que formas de superviviencia.
+
+El régimen neoliberal aumenta la productividad aislando a las 
+personas y entregándolas a una brutal competencia. Transforma la 
+vida en una lucha por la superviencia, en un infierno de competencia 
+desenfrenada.
+
+Éxito, rendimiento y competición son formas de supervivencia."
+
+-Byung Chul Han, (2023). Contemplative life. Taurus.
+
+--
+
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 "Today, we invest our best efforts into prolonging life. 
+In reality, life is shrinking to mere survival.
+
+The hysteria around health and the optimization craze are reflections 
+of a pervasive lack of being. We try to compensate for this deficit 
+of being by prolonging bare life. Meanwhile, we lose all sense of an 
+intense life. We confuse it with more production, more performance, 
+and more consumption, which, however, are nothing more than forms 
+of survival.
+
+The neoliberal regime increases productivity by isolating people and 
+subjecting them to brutal competition. It transforms life into a 
+struggle for survival, into an inferno of unrestrained competition.
+
+Success, performance, and competition are forms of survival."
+
+—Byung-Chul Han, (2023). Contemplative Life. Taurus.
+</code></pre>
+<h3>Rumor</h3>
+<p><img src="https://pub-a9df1f2483f2449facb6aa72391b0bca.r2.dev/port_aventura_35373575_110952609779703_9141759884339970048_n.jpg" alt="Rumor"></p>
+<pre><code>🇪🇸 "Nuestro hipotético punto de partida es que hay abudancia de papel 
+de baño en el mercado. Pero de repente e inesperadamente, comienza a 
+circular un rumor de que hay escasez de papel de baño --a causa de este 
+rumor, la gente empieza a comprar frenéticamente papel de baño y el 
+resultado, claro está, es una escasez real de este artículo.
+
+A primera vista, parece que esto es un simple mecanismo de lo que se 
+llama profecía que se autocumple, pero la manera real en que funciona 
+es algo más complicada.
+
+Cada participante tiene el siguiente razonamiento: "Yo no soy un 
+ingenuo y un estúpido, sé muy bien que hay papel de baño de sobra 
+en las tiendas; pero es probable que haya algunas presonas ingenuas 
+y estúpidas que crean estos rumores, que los tomen en serio y actúen 
+de acuerdo con ellos --empezarán a comprar frenéticamente papel de baño 
+y acabará habiendo una escasez real; de modo que, aunque sé perfectamente 
+que hay suficiente, sería buena idea ir a comprar una buena cantidad."
+
+Lo crucial es que este otro supuesto creer ingenuo en realidad no existe: 
+para producir este efecto en la realidad, basta con que haya otros que 
+supongan que existe. En una multitud concreta y cerrada de sujetos, cada 
+persona puede desempeñar este papel para los demás --el efecto será 
+exactamente el mismo: una verdadera escasez de papel de baño.
+
+El único que al final se quedará sin este artículo será precisamente aquel 
+que persiste en la verdad: el que se dice a sí mismo, "yo sé que esto es 
+sólo un rumor, yo sé que hay suficiente papel de baño" y actua en 
+consecuencia..."
+
+-Slavoj Žižek, (2022). El sublime objeto de la ideología. Clave intelectual.
+
+--
+
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 "Our hypothetical starting point is that there is an abundance of toilet 
+paper on the market. But suddenly and unexpectedly, a rumor begins to 
+circulate that there's a toilet paper shortage—because of this rumor, 
+people start buying toilet paper frantically, and the result, of course, is
+a real shortage of the item.
+
+At first glance, this seems like a simple mechanism of what's called a 
+self-fulfilling prophecy, but the actual way it works is somewhat more 
+complicated.
+
+Each participant reasons as follows: "I am not naive and stupid; I know 
+very well that there is plenty of toilet paper in stores; but it's likely 
+that there are some naive and stupid people who believe these rumors, who 
+take them seriously and act accordingly—they will start buying toilet paper 
+frantically and there will end up being a real shortage; so, even though 
+I know perfectly well there's enough, it would be a good idea to go and 
+buy a good quantity."
+
+The crucial point is that this assumed naive belief actually doesn't exist: 
+to produce this effect in reality, it's enough that others merely assume 
+it exists. In a concrete, closed crowd of subjects, each person can play 
+this role for the others—the effect will be exactly the same: a true toilet 
+paper shortage.
+
+The only one who will ultimately be left without this item will be precisely 
+the one who persists in the truth: the one who tells themselves, "I know this 
+is just a rumor, I know there's enough toilet paper," and acts accordingly..."
+
+—Slavoj Žižek, (2022). The Sublime Object of Ideology. Clave intelectual.
+</code></pre>
+<h3>Buy</h3>
+<p><img src="https://pub-a9df1f2483f2449facb6aa72391b0bca.r2.dev/callao_60500568_684199198666127_2121856001238115125_n.jpg" alt="Buy"></p>
+<pre><code>🇪🇸 Comprar cosas no requiere habilidad
+
+--
+
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 Purchasing things take no skill
+</code></pre>
+<h3>Ideas</h3>
+<p><img src="https://pub-a9df1f2483f2449facb6aa72391b0bca.r2.dev/robot_ideas_madrid_35001334_445742489186366_1916999180157452288_n.jpg" alt="Ideas"></p>
+<pre><code>🇪🇸 Una idea empieza a ser interesante cuando te asusta llevarla a 
+conclusión lógica
+
+--
+
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 An idea begins to be interesting when you're afraid of taking 
+it to a logical conclusion
+</code></pre>
+<h3>Yourself</h3>
+<p><img src="https://pub-a9df1f2483f2449facb6aa72391b0bca.r2.dev/flower_367003414_229881183364327_1038591454588853784_n.jpg.jpg" alt="Yourself"></p>
+<pre><code>🇪🇸 La persona a la que más temes contradecir es a ti mismo
+
+--
+
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 The person you fear contradicting the most is yourself
+</code></pre>
+<p><em>Street photography in Spain is not just about taking pictures—it's about understanding and preserving the soul of a nation through visual storytelling.</em></p>
+5:["$","div",null,{"className":"min-h-screen","style":{"background":"#ffffff"},"children":["$","div",null,{"className":"w-full mx-auto px-6 py-12","children":[["$","$L13",null,{"href":"/projects?page=1","className":"inline-flex items-center mb-8 text-sm transition-colors","style":{"color":"#059669"},"children":[["$","svg",null,{"className":"mr-2 h-4 w-4","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M15 19l-7-7 7-7"}]}],"Back to projects"]}],["$","header",null,{"className":"mb-12","children":[["$","h1",null,{"className":"text-3xl font-bold mb-4 leading-tight","style":{"color":"#000000"},"children":"📷 Street photography around Spain"}],["$","time",null,{"className":"text-sm","style":{"color":"#666666"},"children":"20 February 2024"}]]}],["$","article",null,{"className":"prose prose-lg","style":{"backgroundColor":"#f8f9fa","padding":"1.5rem","borderRadius":"0.25rem","border":"1px solid #e1e5e9"},"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$14"}}]}],["$","div",null,{"className":"mt-16 pt-8","style":{"borderTop":"1px solid #e1e5e9"},"children":["$","$L13",null,{"href":"/projects?page=1","className":"inline-flex items-center text-sm transition-colors","style":{"color":"#059669"},"children":[["$","svg",null,{"className":"mr-2 h-4 w-4","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M15 19l-7-7 7-7"}]}],"Back to projects"]}]}],["$","footer",null,{"className":"mt-24 pt-8","style":{"borderTop":"1px solid #e1e5e9"},"children":["$","div",null,{"className":"flex flex-col md:flex-row justify-between items-start md:items-center","children":["$","p",null,{"className":"text-sm mb-4 md:mb-0","style":{"color":"#666666"},"children":["© 2004-",2025," shidare.com. Made with Next.js and Markdown."]}]}]}]]}]}]
+8:null
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+7:null
+a:{"metadata":[["$","title","0",{"children":"shidare.com"}],["$","meta","1",{"name":"description","content":"Generated by create next app"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+12:{"metadata":"$a:metadata","error":null,"digest":"$undefined"}
